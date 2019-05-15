@@ -9,7 +9,7 @@ class FileTester implements TesterInterface
     private $files = [];
     private $root;
 
-    private function __construct($root = null)
+    public function __construct($root = null)
     {
         $this->root = $root;
     }
